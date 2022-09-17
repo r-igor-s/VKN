@@ -1,0 +1,14 @@
+dia = input("Яку дію виконуємо?(+,-,*):")
+a = int(input("Введіть перше число: "))
+b = int(input("Введіть друге число: "))
+if dia == "+":
+    c = a + b
+    print("Результат:" + str(c))
+elif dia == "-":
+    c = a - b
+    print("Результат:" + str(c))
+elif dia == "*":
+    c = a * b
+    print("Результат: " + str(c))
+else:
+    print("Вибрана не вірна дія!")
