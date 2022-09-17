@@ -1,0 +1,9 @@
+import sys
+
+a = int(sys.argv[1])
+b = int(sys.argv[2])
+c = int(sys.argv[3])
+S = 2 * (a * b + b * c + a * c)
+V = a * b * c
+print("Площа: ",S)
+print("Об'єм: ",V)
